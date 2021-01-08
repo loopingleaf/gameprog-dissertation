@@ -1,0 +1,31 @@
+body {
+    background-color: #fff;
+}
+
+/******** NOTES ********/
+.note {
+    border-left: 1px solid rgb(32, 137, 223);
+    background-color: rgba(161, 213, 255, 0.603);
+    padding: 4px 0px;
+}
+
+.note .title::after {
+    content: url("images/note.svg");
+    margin: 4px;
+}
+
+.note .title p {
+    display: none;
+}
+
+.note p {
+    margin: auto 4px;
+}
+
+/***** CODE BLOCKS *****/
+div.sourceCode {
+    margin-left: 1rem;
+    margin-right: 13rem;
+    padding: 4px;
+    background-color: rgb(240, 240, 240);
+}
